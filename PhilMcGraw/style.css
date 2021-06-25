@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background: rgb(156, 204, 236);
+}
+
+#startButton{
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lavender;
+    position: relative;
+    overflow: hidden;
+    font-size: 22px;
+    line-height: 70px;
+    background: rgb(156, 204, 236);
+    transition: all 0.5s;
+}
+
+#startButton:hover{
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid lavender;
+    position: relative;
+    overflow: hidden;
+    font-size: 22px;
+    line-height: 70px;
+    border: 1px solid rgba(255,255,255,0);
+    width: 100%;
+    transition: all 0.5s;
+
+}

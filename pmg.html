@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="MindQuiz/style.css" rel="stylesheet">
+    <link href="PhilMcGraw/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -29,11 +29,11 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">MindQuiz <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
-              <a class="nav-link" href="pmg.html">MindQuiz2</a>
+              <a class="nav-link" href="mind_quiz.html">MindQuiz</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">MindQuiz2 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="rpg.html">RPG</a>
@@ -65,20 +65,12 @@
 
         <hr class="featurette-divider">
 
-        <h1>韓國心理測驗 - 你在朋友眼中的形象</h1>
-        <img src="images/friend.png" id="pic">
+        <h1>菲爾人格測試</h1>
         <div>
             <h2 id="question"></h2>
             <div id="options"></div>
         </div>
         <input id="startButton" type="button" value="開始作答">
-        <script>
-          var startButton=document.getElementById("startButton");
-          var pic=document.getElementById("pic");        
-          startButton.onclick=function(){
-            pic.style.display="none";
-          }
-        </script>
 
         <hr class="featurette-divider">
 
@@ -103,7 +95,7 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="MindQuiz/data.js"></script>
-    <script src="MindQuiz/main.js"></script>
+    <script src="PhilMcGraw/data.js"></script>
+    <script src="PhilMcGraw/main.js"></script>
   </body>
 </html>
