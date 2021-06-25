@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple RPG</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>我要尋找終點</h1>
+        <h3>遊戲規則：在不知道終點的情況下走動來尋找終點，最後到達終點會顯示分數與血量，請小心不要被扣光血了！(最初血量：50)</h3>
+        <h3>wasd鍵：跳兩格/上下左右鍵：跳一格/碰到敵人：扣2滴血；碰到怪獸：扣3滴血/找到金幣：加1分；找到寶藏：得2分</h3>
+        <input id="replay" type="button" value="重新玩" onclick="window.location.reload();">
+        <h3></h3>
+        <div>
+            <canvas id="myCanvas" width="600" height="600"></canvas>
+            <p id="talkBox"></p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

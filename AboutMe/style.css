@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    position: relative;
+}
+
+.highlight{
+    position: relative;
+    background-color: lavender;
+}
+
+.highlight::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 0.7em;
+    top: 0.6em;
+    background: darkblue;
+    width: 100%;
+    opacity: 0.55;  
+}

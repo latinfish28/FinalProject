@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+canvas{
+    border: 2px solid black;
+    background-image: url(images/grasses68.gif);
+}
+
+#talkBox{
+    height: 20px;
+    color: brown;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#replay{
+    background-color: aliceblue;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#replay:hover{
+    background-color: rgb(132, 178, 218);
+    font-size: 18px;
+    border-radius: 8px;
+    transition: all 0.4s;
+}

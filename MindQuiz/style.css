@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background: rgb(154, 154, 179);
+}
+
+#startButton{
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid dimgray;
+    position: relative;
+    overflow: hidden;
+    font-size: 26px;
+    color: rgb(63, 62, 62);
+    line-height: 70px;
+    background: rgb(154, 154, 179);
+}
+
+#startButton:hover{
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid dimgray;
+    position: relative;
+    overflow: hidden;
+    font-size: 26px;
+    line-height: 70px;
+    border-radius: 25px;
+    background: rgba(231, 219, 255, 0.3);
+    transition: all 0.5s;
+}
+
+#options{
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+
+#question{
+    color: rgb(63, 62, 62);
+}
